@@ -1680,21 +1680,108 @@
 //     count.innerHTML = parseInt(count.innerHTML)-1
 // }
 
+// Chapter # 49-52 Task 1
+// var a,b,c;
+// function displaydata() {
+//     displayemail()
+//     displaypass()
+//     displayreapeatpass()
+// }
+
+// function displayemail() {
+//      a = document.getElementById('emailid')
+//     document.write("Email :" + a.value + "<br>")
+// }
+
+// function displaypass() {
+//      b = document.getElementById('password')
+//     b.type = "text"
+//     document.write("Password :" + b.value + "<br>")
+// }
+
+// function displayreapeatpass() {
+//      c = document.getElementById('password-repeat')
+//     c.type = "text"
+//     document.write("Repeat Password :" + c.value + "<br>")
+// }
 
 
 
+// Task 2
 
 
+// function readmore() {
+//     var para = document.createElement("p")
+//     var node = document.createTextNode("Samsung Galaxy A21s price in Pakistan starts at Rs. 33,500. This is for the base variant that comes with 4GB of RAM and 64GB of internal storage Retail Price of Samsung Galaxy A21s in Pakistan is Rs. 33,500.Retail Price of Samsung in USD is $250.")
+//     para.appendChild(node)
 
+//     var element = document.getElementById("card-text");
+//     element.appendChild(para);
 
+// }
 
+// Chapter 53 to 58 Task 1
+// function showimage(a) {
+//     var modalimg = document.getElementById('modalimg')
+//     modalimg.src = a.src
+// }
 
+// Chapter 58-67 Task 1
+// var main = document.getElementsByTagName('div')
+// console.log(main[2])
 
+// Task 2
+// var div = document.getElementById('main-content')
+// var element = div.getElementsByTagName('p')
+// console.log(element)
 
+// Task 3
+// var a = document.getElementsByTagName('p')
+// for (let index = 0; index < a.length; index++) {
+//     document.write(a[index].innerHTML + "<br>")
+// }
 
+// Task 4
+// var a = document.getElementById('first-name')
+// a.value = "Faizan"
 
+// Task 5
+// var a = document.getElementById('first-name')
+// a.value = "Faizan"
+// var a = document.getElementById('last-name')
+// a.value = "Ali"
+// var b = document.getElementById('email')
+// b.value = "faizanalibugti@outlook.com"
 
+// Question 2 Task 1 
+// var a = document.getElementById('form-content')
+// console.log(a.nodeType)
 
+// Task 2
+// var b = document.getElementById('lastName')
+// console.log(b.nodeType)
+// console.log(b.childNodes[0])
+
+// Task 3
+// var b = document.getElementById('lastName')
+// b.childNodes[0].nodeValue = "Ali"
+
+// Task 4
+// var b = document.getElementById('main-content')
+// console.log(b.firstChild)
+// console.log(b.lastChild)
+
+// Task 5
+// var b = document.getElementById('lastName')
+// console.log(b.nextSibling)
+// console.log(b.previousSibling)
+
+// Task 6
+// var b = document.getElementById('email')
+// console.log(b.parentNode)
+// console.log(b.parentNode.nodeType)
+
+// MODAL
 // Chapters 52 - 57
 
 // function showimage(a) {
